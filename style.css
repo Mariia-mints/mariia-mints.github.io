@@ -1,24 +1,71 @@
 body {
-	background-image: url(https://images.unsplash.com/photo-1465426721606-27b1239015fd?ixlib=rb-1.2.1&w=1000&q=80);
+	background-image: url("pink.brush.jpeg");/*https://www.redwallpapers.com/public/redwallpapers-large-thumb/assorted-makeup-brush-set-free-stock-photo-image-wallpaper.jpeg*/
 	background-size: cover;
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	color: white;
 }
+.dws {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+.butt {
+	border: 2px solid;
+	border-radius: 40px;
+	border-color: #7E71AB;
+	font-size: 50px;
+	text-decoration-style: none;
+	color: pink;
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+	background-color: #7E71AB;
+}
+.butt:hover {
+	color: pink;
+	background-color: #34182B;
+	transform: scale(1.2);
+	transition: 0.8s;
+	border-color: #34182B;
+}
+h1, h3 {
+	background-color: 
+	font-size: 20px;
+}
+.cards {
+	display: flex;
+    align-items: flex-end;
+    margin: 35px;
+}
+.card {
+	background: #7E71AB;/*#EDDEE8*/;
+	border-radius:1rem;
+	padding: 2rem;
+	box-shadow: 4px 4px 20px 4px ;
+	transition: 0.2s;
+	color: black;
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
-  align-content: center;
 }
-
-#but1 {
-	color: red;
-	text-align: center;
-	flex-wrap: wrap;
-	margin-top: 350px;	
+h2 {
+	color: pink;
+	font-family: 'Cormorant Garamond', serif;
 }
-#but1:hover {
+.card:not(:first-child) {
+	margin-left: -3rem;
+	color: black;
+}
+.card:hover,
+.card:focus-within {
+	transform: translateY(-2rem);	
+}
+.card:hover ~ .card,
+.card:focus-within ~ .card {
+	transform: translateX(4rem);
+	background-color: #34182B;
+}
+ a {
 	text-decoration: none;
-	transform: scale(1.4);
-	transition: 0.5s;
-}*/
+	color: white;
+}
