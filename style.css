@@ -37,7 +37,7 @@ h1, h3 {
 .cards {
 	display: flex;
     align-items: flex-end;
-    margin: 35px;
+    margin: 70px;
 }
 .card {
 	background: #7E71AB;/*#EDDEE8*/;
